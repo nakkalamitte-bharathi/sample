@@ -4,8 +4,7 @@ pipeline {
         stage('compile') {
             steps {
               echo 'Enter Compile'
-              echo 'workspace' $WORKSPACE
-       		    
+             		    
 		          }
         }
         stage('build'){
