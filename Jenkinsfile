@@ -15,7 +15,7 @@ pipeline {
         }
         stage('archive'){
             steps{
-		jar -cvf sample.war * 
+		sh 'jar -cvf sample.war * ' 
                 echo 'Enter Archive'
             }
         }
